@@ -1,0 +1,121 @@
+#homepage{
+  background-image: url("./assets/homepage.png");
+  width: 100vw;
+   height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  padding-top: 100px; 
+}
+
+nav{ 
+  position: fixed;     
+  top: 0;              
+  left: 0;
+  width: 100%;        
+  background-color: #f5efe6; 
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+
+body {
+margin: 0;
+font-family: "Poppins", sans-serif;
+background-color: #f8f8f8; 
+}
+
+.navbar{
+  font-size: 22px;
+  font-weight: 600;
+  margin-right: 60px; 
+}
+
+#homedecor{
+    color:  #C18845;
+    font-size: 22px;
+}
+
+.menu {
+  margin: center;   
+  display: flex;
+  gap: 24px;           
+  align-items: center;
+  white-space: nowrap; 
+  margin-right: 400px; 
+}
+
+.menu a {
+  text-decoration: none;
+  color: #430C05; 
+  font-weight: 400;
+  transition: color 0.25s ease;
+}
+
+.menu a:hover {
+  color: #7AA95C;
+}
+
+.icons{
+ font-size: 20px;
+ color: #430C05;
+ display: flex;
+ gap: 30px;   
+margin-right: 80px; 
+
+}
+
+.icons :hover{
+   color: #7AA95C;
+}
+
+
+#homepage1{
+  font-family: "Product Sans", sans-serif;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-transform: uppercase; 
+  color: #430C05;  
+  white-space: nowrap;
+  position: absolute;
+  top: 263px;
+  left: 473px;
+}
+
+#homepageh3{
+
+  width: 584px;
+  height: 84px;
+  position: absolute;
+  top: 340px;
+  left: 460px;
+  font-size: 18px;
+  font-weight: 350; 
+  color: #430C05;
+  line-height: 100%;
+}
+
+.more{
+ 
+  width: 170px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #430C05; 
+  font-size: 17px;
+  text-align: center;
+  color:#430C05;          
+  background-color: transparent; 
+  position: absolute;
+  left: 830px;
+  top: 420px;
+  cursor: "pointer";
+}
+
+

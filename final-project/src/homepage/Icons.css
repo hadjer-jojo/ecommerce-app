@@ -1,0 +1,17 @@
+.text10 h3 {
+  margin-top: 90px;
+  color: #353535; 
+  display: flex;
+  align-items: center; 
+  gap: 8px;            
+}
+
+.text10 p {
+  color: #ABABAB; 
+  font-size: 15px;
+}
+
+.icons{
+  margin-left: 100px;
+ 
+}

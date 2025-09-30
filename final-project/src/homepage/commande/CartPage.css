@@ -1,0 +1,63 @@
+.cart-container {
+  background: #fafafa;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: 40px auto; /* centrer sur la page */
+}
+
+.votrepanier{
+    color: #430C05;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-items li {
+  background: #fff;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-items li strong {
+  color: #430C05;
+}
+
+.cart-total {
+  border-top: 2px solid #eee;
+  padding-top: 15px;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #7AA95C;
+  text-align: right;
+}
+
+.commander {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #8B5E3C, #5C3A21); 
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: auto;           
+  display: block;
+  margin-left: 90px;  
+}
+
+.commander:hover {
+  background: linear-gradient(135deg, #5C3A21, #8B5E3C); /* inverse au hover */
+}

@@ -1,0 +1,52 @@
+.barrenoir{
+  background-color: #2B2B2B;
+  height: 250px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 50px;
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  
+  
+}
+
+
+.barrenoir > div {
+  text-align: center; 
+  
+}
+
+
+.text15 p{
+    color: #ABABAB;
+    font-size: 14px;
+}
+
+
+.text15 ul{
+    color: #ABABAB;
+    font-size: 14px;
+}
+
+.liste{
+    list-style-type: none; 
+    margin-top: 5px;
+}
+
+#listeicons{
+
+     list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;               /* en ligne */
+  gap: 30px;                   /* espace entre les éléments */
+  justify-content: center;     /* centrer la liste */
+  align-items: center;         /* aligner verticalement */
+  font-size: 16px;
+  font-weight: 500;
+}

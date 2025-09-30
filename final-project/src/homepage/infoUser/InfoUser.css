@@ -1,0 +1,146 @@
+
+body {
+  background-color: #f7f7f7; 
+  font-family: Arial, sans-serif;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px; 
+  padding: 40px 20px;
+  max-width: 1000px; 
+  margin-top: 30px;
+}
+
+
+h2 {
+  color: #5C3A21; 
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+
+.form-section,
+.order-section {
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+  flex: 1.5; 
+  background: #ffffff;
+}
+
+.order-section {
+  flex: 1; 
+  background: #EED7C5;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section label {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+
+.form-section input:not([type="radio"]),
+.form-section select,
+.form-section textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 3px; 
+  border: 1px solid #c0c0c0;
+  font-size: 1rem;
+}
+
+
+
+.form-section input:focus,
+.form-section select:focus,
+.form-section textarea:focus {
+  border-color: #EED7C5;
+  outline: none;
+}
+
+
+.order-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.order-section li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.order-section h3 {
+  color: #3f684a;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+
+.livraison {
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+
+.confirmorder{
+   margin-top: 20px;
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #8B5E3C, #5C3A21); 
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 200px;           
+  display: block;
+   margin-left: 200px; 
+ 
+}
+
+
+.confirmorder:hover {
+  background: linear-gradient(135deg, #5C3A21, #8B5E3C); /* inverse au hover */
+}
+
+
+
+.form-section input[type="radio"] {
+  appearance: none;         
+  -webkit-appearance: none; 
+  -moz-appearance: none;   
+  width: 18px;
+  height: 18px;
+  border: 1px solid #5C3A21;  
+  border-radius: 50%;       
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+
+/* Quand il est sélectionné */
+.form-section input[type="radio"]:checked {
+  background-color: #8B5E3C;  
+  border-color: #5C3A21;     
+}
+
+
+

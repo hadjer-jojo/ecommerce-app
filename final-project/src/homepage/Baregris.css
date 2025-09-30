@@ -1,0 +1,34 @@
+
+#baregris{
+  background-color: #96A78D;
+  height: 230px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+   
+.text2{
+  color: #373737;
+  font-size: 20px; 
+  padding-top: 99px;
+  padding-left: 200px;
+  
+}
+
+.btnview{
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 50px;
+  border: 1px solid black;
+  background: transparent;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 50px; 
+}
